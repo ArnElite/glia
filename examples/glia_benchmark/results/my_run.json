@@ -1,0 +1,193 @@
+{
+  "meta": {
+    "generated_at": "2026-05-06T06:38:36.719193+00:00",
+    "elapsed_seconds": 511.97,
+    "query_count": 1000,
+    "simulator_cycles": 33,
+    "simulator_mutations": 23100
+  },
+  "results": {
+    "glia": {
+      "relational": {
+        "latency": {
+          "mean": 12.865470540008573,
+          "p50": 9.67420899996796,
+          "p95": 22.192329000063182,
+          "p99": 90.76611799991952,
+          "count": 1000
+        },
+        "tokens": {
+          "mean": 0.0,
+          "p50": 0,
+          "p95": 0,
+          "p99": 0,
+          "count": 1000
+        },
+        "total_tokens": 0,
+        "hit_rate": 1.0,
+        "miss_rate": 0.0,
+        "query_count": 1000,
+        "correctness": {
+          "mean": 0.6055,
+          "p50": 0.6,
+          "p95": 0.8,
+          "p99": 0.9,
+          "count": 1000
+        }
+      },
+      "graph": {
+        "latency": {
+          "mean": 12.877466447993356,
+          "p50": 9.79248000021471,
+          "p95": 22.719484999925044,
+          "p99": 95.567100000153,
+          "count": 1000
+        },
+        "tokens": {
+          "mean": 0.0,
+          "p50": 0,
+          "p95": 0,
+          "p99": 0,
+          "count": 1000
+        },
+        "total_tokens": 0,
+        "hit_rate": 1.0,
+        "miss_rate": 0.0,
+        "query_count": 1000,
+        "correctness": {
+          "mean": 0.6117,
+          "p50": 0.6,
+          "p95": 0.8,
+          "p99": 0.9,
+          "count": 1000
+        }
+      },
+      "vector": {
+        "latency": {
+          "mean": 12.838124681000409,
+          "p50": 9.706835000088176,
+          "p95": 24.12220599990178,
+          "p99": 90.24228699991,
+          "count": 1000
+        },
+        "tokens": {
+          "mean": 0.0,
+          "p50": 0,
+          "p95": 0,
+          "p99": 0,
+          "count": 1000
+        },
+        "total_tokens": 0,
+        "hit_rate": 1.0,
+        "miss_rate": 0.0,
+        "query_count": 1000,
+        "correctness": {
+          "mean": 0.6045,
+          "p50": 0.6,
+          "p95": 0.8,
+          "p99": 0.9,
+          "count": 1000
+        }
+      }
+    },
+    "standard": {
+      "relational": {
+        "latency": {
+          "mean": 147.73366163699893,
+          "p50": 145.22149599997647,
+          "p95": 239.85509900012403,
+          "p99": 249.17353999990155,
+          "count": 1000
+        },
+        "tokens": {
+          "mean": 160.682,
+          "p50": 160,
+          "p95": 227,
+          "p99": 243,
+          "count": 1000
+        },
+        "total_tokens": 160682,
+        "hit_rate": 0.0,
+        "miss_rate": 0.0,
+        "query_count": 1000,
+        "correctness": {
+          "mean": 0.7667,
+          "p50": 1.0,
+          "p95": 1.0,
+          "p99": 1.0,
+          "count": 1000
+        }
+      },
+      "graph": {
+        "latency": {
+          "mean": 159.3937897970145,
+          "p50": 159.33670300000813,
+          "p95": 250.20463100008783,
+          "p99": 257.9594450003242,
+          "count": 1000
+        },
+        "tokens": {
+          "mean": 160.769,
+          "p50": 162,
+          "p95": 230,
+          "p99": 247,
+          "count": 1000
+        },
+        "total_tokens": 160769,
+        "hit_rate": 0.0,
+        "miss_rate": 0.0,
+        "query_count": 1000,
+        "correctness": {
+          "mean": 0.7767000000000001,
+          "p50": 1.0,
+          "p95": 1.0,
+          "p99": 1.0,
+          "count": 1000
+        }
+      },
+      "vector": {
+        "latency": {
+          "mean": 165.8407295180068,
+          "p50": 163.34151699993527,
+          "p95": 257.30946900011986,
+          "p99": 266.8562720000409,
+          "count": 1000
+        },
+        "tokens": {
+          "mean": 113.727,
+          "p50": 115,
+          "p95": 159,
+          "p99": 164,
+          "count": 1000
+        },
+        "total_tokens": 113727,
+        "hit_rate": 0.0,
+        "miss_rate": 0.0,
+        "query_count": 1000,
+        "correctness": {
+          "mean": 0.23320000000000002,
+          "p50": 0.2,
+          "p95": 0.3,
+          "p99": 0.4,
+          "count": 1000
+        }
+      }
+    },
+    "correctness_comparison": {
+      "standard_mean": 0.592,
+      "glia_mean": 0.607,
+      "glia_wins": 1584,
+      "std_wins": 1398,
+      "ties": 18
+    },
+    "invalidation": {
+      "count": 0,
+      "latency": {
+        "mean": 0,
+        "p50": 0,
+        "p95": 0,
+        "p99": 0
+      }
+    }
+  }
+}
