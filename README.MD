@@ -22,7 +22,7 @@ Adding Glia requires almost zero refactoring.The document loading pipeline, the 
 
 - **Python:** 3.9+
 - **Database:** Redis Stack (the RediSearch module is strictly required)
-- **Embeddings:** Any provider exposing an `embed` and `embed_many` interface (e.g., VertexAITextVectorizer).
+- **Embeddings:** Any provider exposing an `embed` and `embed_many` interface (e.g. VertexAITextVectorizer).
 
 ## Local INSTALLATION
 
